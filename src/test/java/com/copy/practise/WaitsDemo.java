@@ -50,7 +50,7 @@ public class WaitsDemo {
 		for(String s:setHandles) {
 			if(!s.equals(parenthandle)) {
 				driver.switchTo().window(s);
-				wait.until(d->d.findElement(By.name("")).isDisplayed());
+				//wait.until(d->d.findElement(By.name("")).isDisplayed());
 				driver.findElement(By.name("your-email")).sendKeys("hello");
 			}
 		}
