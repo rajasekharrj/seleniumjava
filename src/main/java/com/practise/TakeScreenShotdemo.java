@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class TakeScreenShot {
+public class TakeScreenShotdemo {
 WebDriver driver;
 String baseurl="https://opensource-demo.orangehrmlive.com/index.php";
 
